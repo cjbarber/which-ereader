@@ -44,3 +44,12 @@ body {
 h1 {
   font-size: 80px;
 }
+
+#sharing {
+  text-align:left;
+  position: absolute;
+  bottom:85px;
+  left: 20px;
+  font-size:18px;
+  margin-top:200px;
+}
