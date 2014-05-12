@@ -28,13 +28,13 @@ $(function(){
             else{
                 ereadername = "Kobo Aura HD"
                 verdict = "GET A FUCKING KOBO AURA HD.";
-                explanation = "The word Kobo does sound pretty fucking cool.";
+                explanation = "What the fuck is a Kobo? Go Google it for fucks sake.";
             }
         }
         else if (usecase == "movies"){
             if (cheap){
                 ereadername = "Tablet"
-                verdict = "SERIOUSLY? BUY A GODDAMN TABLET. MAYBE A FUCKING NEXUS 7 OR AN IPAD.";
+                verdict = "SERIOUSLY? BUY A GODDAMN TABLET. AN IPAD OR A NEXUS 7.";
                 explanation = "You don't want a goddamn ereader.";
             }
             else{
