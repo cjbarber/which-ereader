@@ -10,36 +10,36 @@ $(function(){
         if (usecase == "books"){
             if (cheap){
                 ereadername = "Kindle Classic"
-                verdict = "FUCK, GET A KINDLE CLASSIC";
+                verdict = "FUCK, GET A <a href=\"http://www.amazon.com/exec/obidos/ASIN/B007HCCNJU/\">KINDLE CLASSIC</a>";
                 explanation = "You should be buying a Paperwhite but you're too damn cheap."
             }
             else{
                 ereadername = "Paperwhite"
-                verdict = "GET A FUCKING PAPERWHITE";
+                verdict = "GET A FUCKING <a href=\"http://www.amazon.com/exec/obidos/ASIN/B00AWH595M/\">PAPERWHITE</a>";
                 explanation = "Thank fuck someone has sense.";
             }
         }
         else if (usecase == "bigscreen"){
             if (cheap){
                 ereadername = "??"
-                verdict = "I DON'T FUCKING KNOW. GET A FUCKING PAPERWHITE.";
+                verdict = "I DON'T FUCKING KNOW. GET A FUCKING <a href=\"http://www.amazon.com/exec/obidos/ASIN/B00AWH595M/\">PAPERWHITE.</a>";
                 explanation = "God fucking dammit, just be okay with the Paperwhite.";
             }
             else{
                 ereadername = "Kobo Aura HD"
-                verdict = "GET A FUCKING KOBO AURA HD.";
+                verdict = "GET A FUCKING <a href=\"http://www.amazon.com/exec/obidos/ASIN/B00CFV45KS/\">KOBO AURA HD.</a>";
                 explanation = "What the fuck is a Kobo? Go Google it for fucks sake.";
             }
         }
         else if (usecase == "movies"){
             if (cheap){
                 ereadername = "Tablet"
-                verdict = "SERIOUSLY? BUY A GODDAMN TABLET. AN IPAD OR A NEXUS 7.";
+                verdict = "SERIOUSLY? BUY A GODDAMN TABLET. AN <a href=\"http://www.amazon.com/exec/obidos/ASIN/B009W8YQ6K/\">IPAD</a> OR A <a href=\"http://www.amazon.com/exec/obidos/ASIN/B00DVFLJKQ/\">NEXUS 7.</a>";
                 explanation = "You don't want a goddamn ereader.";
             }
             else{
                 ereadername = "Tablet"
-                verdict = "BUY A GODDAMN TABLET. AN IPAD OR A NEXUS 7.";
+                verdict = "BUY A GODDAMN TABLET. AN <a href=\"http://www.amazon.com/exec/obidos/ASIN/B009W8YQ6K/\">IPAD</a> OR A <a href=\"http://www.amazon.com/exec/obidos/ASIN/B00DVFLJKQ/\">NEXUS 7.</a>";
                 explanation = "You don't want a goddamn ereader.";
             }
         }
@@ -49,7 +49,7 @@ $(function(){
         }
 
         $('#ereadername').text(ereadername);
-        $('#ereader-name').text(verdict);
+        $('#ereader-name').html(verdict);
         $('#ereader-explanation').text(explanation);
     });
 });
