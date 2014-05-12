@@ -45,7 +45,7 @@ $(function(){
         }
         else{
             verdict = "WHAT THE FUCK DO YOU WANT TO USE IT FOR?"
-            explanation = "How the fuck did you expect this to work."
+            explanation = "How the fuck did you expect this to work?"
         }
 
         $('#ereadername').text(ereadername);
