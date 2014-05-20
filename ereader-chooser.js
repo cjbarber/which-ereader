@@ -1,3 +1,5 @@
+// Much credit to Equire - just a minor alteration
+
 $(function(){
     var ereadername = "";
     var verdict = "";
